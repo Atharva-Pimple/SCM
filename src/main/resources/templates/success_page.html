@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base:: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title>Email Verification</title>
+</head>
+<body>
+    <div id="content" class="text-center md:w-1/2 mx-auto">
+        <!--Message Box-->
+        <div th:replace="~{message::messagebox}" class="mt-2"></div>
+        <button th:href="@{'/login'}" class="mt-5 bg-gray-900 dark:bg-blue-800 text-white mb-3 p-3">Login</button>
+    </div>
+    <script>
+        console.log("success page");
+    </script>
+</body>
+</html>

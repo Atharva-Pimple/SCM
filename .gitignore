@@ -1,0 +1,93 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Compiled class files
+*.class
+
+# Target directory (for Maven projects)
+target/
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle wrapper files
+.gradle/
+build/
+gradlew
+gradlew.bat
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+*.env
+.env
+
+# Spring Boot specific properties
+application.properties
+application.yml
+
+# Database files
+*.h2.db
+*.mv.db
+*.db
+
+# Temporary files
+tmp/
+out/
+*.swp
+
+# Node.js dependency directory if using frontend assets
+node_modules/
